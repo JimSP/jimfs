@@ -25,6 +25,7 @@
     <version>HEAD-SNAPSHOT</version>
   </parent>
 
+  <groupId>br.com.cafebinario</groupId>
   <artifactId>jimfs</artifactId>
 
   <packaging>bundle</packaging>

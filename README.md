@@ -19,7 +19,31 @@ Getting started
   <artifactId>jimfs</artifactId>
   <version>1.1</version>
 </dependency>
+
+<repositories>
+...
+
+	<repository>
+		<id>mvn-repo</id>
+		<url>https://raw.github.com/JimSP/artifacts/master</url>
+
+		<releases>
+			<enabled>true</enabled>
+		</releases>
+
+		<snapshots>
+			<enabled>true</enabled>
+		</snapshots>
+	</repository>
+
+...
+</repositories>
+
+
+
 ```
+
+
 
 Basic use
 ---------
