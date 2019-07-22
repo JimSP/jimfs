@@ -1,24 +1,21 @@
 Jimfs
 =====
 
+Fork jimfs (https://github.com/google/jimfs)
+	add custom Map instance for default storage.
+	add serializable and comparable interfaces in storage entry
+	add unit test for custom Map.
+
 Jimfs is an in-memory file system for Java 7 and above, implementing the
 [java.nio.file](http://docs.oracle.com/javase/7/docs/api/java/nio/file/package-summary.html)
 abstract file system APIs.
 
-[![Build Status](https://travis-ci.org/google/jimfs.svg?branch=master)](https://travis-ci.org/google/jimfs)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.google.jimfs/jimfs/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.google.jimfs/jimfs)
-
 Getting started
 ---------------
 
-The latest release is [1.1](https://github.com/google/jimfs/releases/tag/v1.1).
-
-It is available in Maven Central as
-[com.google.jimfs:jimfs:1.1](http://search.maven.org/#artifactdetails%7Ccom.google.jimfs%7Cjimfs%7C1.1%7Cjar):
-
 ```xml
 <dependency>
-  <groupId>com.google.jimfs</groupId>
+  <groupId>br.com.cafebinario.jimfs</groupId>
   <artifactId>jimfs</artifactId>
   <version>1.1</version>
 </dependency>
